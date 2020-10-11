@@ -33,8 +33,13 @@ article blockquote::before {
   left: -17px;
 }
 
+* {
+  box-sizing: border-box;
+}
 
-
+/* article {
+  font-weight: bold;
+} */
 
 article img { display: block; width: 1020px; margin: 79px auto 0;
 }
@@ -51,3 +56,4 @@ article h3 + img { margin-top: 81px;
 article ul {
    list-style-type: square;
 }
+a

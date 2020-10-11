@@ -2,7 +2,7 @@ nav {
   /* background: #aaa; */
   width: 300px;
   position: fixed;
-  top: 20px;
+  top: 90px;
   left: 20px;
   padding: 30px;
   box-sizing: border-box;
@@ -27,6 +27,12 @@ nav p {
 }
 nav a {
   text-decoration: none;
+  font-size: 14px;
+}
+
+nav > ul > li:first-child {
+  margin: 0;
+  font-weight: bold;
   font-size: 14px;
 }
 
