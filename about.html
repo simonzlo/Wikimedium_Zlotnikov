@@ -50,14 +50,14 @@
         margin: 0 auto;
       }
 
-      section h1 {
+      section h1, .bottom_block h1 {
         font-size: 40px;
         margin-top: 60px;
         margin-bottom: 26px;
         line-height: 38px;
       }
 
-      section p {
+      section p, .bottom_block p {
         font-size: 26px;
         line-height: 38px;
       }
@@ -69,6 +69,35 @@
 
       section div:nth-last-of-type(2) p {
         margin-top: 20;
+      }
+
+      .bottom_block p,
+      .bottom_block h1 {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .bottom_block {
+        text-align: center;
+        padding-top: 100px;
+        border-top: 1px solid #bbb;
+      }
+
+      .btn {
+        text-decoration: none;
+        border: 1px solid #bbb;
+        padding: 15px 40px;
+        background: white;
+        border-radius: 4px;
+        display: inline-block;
+        margin-top: 80px 5px 0;
+      }
+
+      .btn-black {
+        color: white;
+        background: black;
+        border-color: black;
       }
 
     </style>
@@ -95,34 +124,27 @@
         <img src="images/about2.png" alt="">
       </div>
       <div>
-        <h1>Наглядный пример <br> чтобы учиться веб-верстке</h1>
-        <p>Разработан для изучения основ веб-верстки языка гипертекстовой разметки HTML и&nbsp;каскадных таблиц стилей CSS.</p>
+        <h1>С нуля до первого сайта под компьютеры, смартфоны и планшеты</h1>
+        <p>Чтобы начать изучать веб-вёрстку на этом проекте, не требуется каких-то специальных знаний, кроме базового умения пользоваться компьютером</p>
       </div>
     </section>
 
     <section>
       <div>
-        <h1>Наглядный пример <br> чтобы учиться веб-верстке</h1>
-        <p>Разработан для изучения основ веб-верстки языка гипертекстовой разметки HTML и&nbsp;каскадных таблиц стилей CSS.</p>
+        <h1>Реальный проект, реальный рабочий процесс</h1>
+        <p>Обучение приближено к работе в реальной жизни, работа разбита на этапы от типографики, создания меню и использования эффектов, до адаптации под мобильные устройства и использования JavaScript скриптов</p>
       </div>
       <div>
         <img src="images/about3 .png" alt="">
       </div>
     </section>
 
-
-
-
-
-
-
-
-
-
     <div class="bottom_block">
+      <h1>Возможность самостоятельного <br> и курируемого обучения</h1>
+      <p>Вы можете сам остоятельно обучаться по исходному коду проекта, выложеннному на GitHub, или записаться на курс «Основы <br> веб-верстки» в Школе Дизайна НИУ ВШЭ</p>
+      <a class="btn"  href="#">Исходный код на GitHub</a>
+      <a class="btn btn-black" href="#">Курс в школе дизайна</a>
     </div>
-
-
 
 
   </body>
