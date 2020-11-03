@@ -16,9 +16,9 @@ article h2 + blockquote { margin-top: 7px;
 article h3 { margin-top: 36px; font-size: 28px; line-height: 34px; color: rgba(0, 0, 0, .8);
 }
 article h3 + p,
-article h3 + blockquote { margin-top: 6px;
+article h3 + blockquote { margin-top: 16px;
 }
-article p, article blockquote, article li { margin-top: 29px; font-size: 20px; line-height: 34px;
+article p, article blockquote, article li { margin-top: 28px; font-size: 20px; line-height: 34px;
 }
 article blockquote { font-style: italic;
   position: relative;
@@ -32,6 +32,8 @@ article blockquote::before {
   top: 0;
   left: -17px;
 }
+
+
 
 * {
   box-sizing: border-box;
