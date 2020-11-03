@@ -17,6 +17,11 @@ article > h1 {
 	font-size: 44px;
 	line-height: 48px;
 }
+
+article > h1 + p  {
+	margin-top: 100px;
+}
+
 article > h2 {
 	font-size: 36px;
 	line-height: 38px;
@@ -112,8 +117,6 @@ article > p {
 	font-size: 22px;
 	margin-top: 28px;
 	line-height: 28px; */
-}
-
 }
 article li {
 	font-size: 20px;
