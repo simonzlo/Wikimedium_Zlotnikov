@@ -10,6 +10,83 @@
 
 @media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
 article > * { width: calc(100% - 40px); }
+body { min-width: 768px; }
+article * { width: calc(100% - 40px); }
+
+article > h1 {
+	font-size: 44px;
+	line-height: 48px;
+}
+article > h2 {
+	font-size: 36px;
+	line-height: 38px;
+}
+article > h3 {
+	font-size: 32px;
+	line-height: 36px;
+}
+article > p {
+	font-size: 22px;
+	line-height: 34px;
+}
+article li {
+	font-size: 22px;
+}
+
+/*
+article li + li {
+	margin-top: 28px;
+}
+
+
+article h1 + p {
+	font-size: 22px;
+	line-height: 28px;
+	margin-top: 24px;
+}
+article h1 + p + p {
+	margin-top: 40px;
+}
+
+article h2 + p {
+	margin-top: 24px;
+}
+
+article p + h2 {
+	margin-top: 40px;
+}
+
+blockquote + h2 {
+	margin-top: 32px;
+}
+
+h2 + h3 {
+	margin-top: 32px;
+}
+
+h3 + p {
+	margin-top: 16px;
+}
+article h3 + p, article h3 + blockquote {
+margin-top: 16px;}
+
+article img {
+	margin-top: 68px;
+}
+
+article img + h2 {
+	margin-top: 68px;
+}
+
+article p + ul {
+	margin-top: 40px;
+}
+
+article ul + h2 {
+	margin-top: 40px;
+} */
+ */
+
 }
 
 @media all and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
@@ -28,15 +105,68 @@ article > h3 {
 	line-height: 32px;
 }
 article > p {
-	font-size: 22px;
+	font-size: 20px;
 	line-height: 28px;
 }
-article li {font-size: 22px;}
+/* article > a {
+	font-size: 22px;
+	margin-top: 28px;
+	line-height: 28px; */
+}
+
+}
+article li {
+	font-size: 20px;
+}
+
+article li + li {
+	margin-top: 24px;
+}
+
+
 article h1 + p {
 	font-size: 22px;
 	line-height: 28px;
 	margin-top: 24px;
 }
 article h1 + p + p {
+	margin-top: 40px;
+}
+
+article h2 + p {
+	margin-top: 24px;
+}
+
+article p + h2 {
+	margin-top: 40px;
+}
+
+blockquote + h2 {
+	margin-top: 32px;
+}
+
+h2 + h3 {
+	margin-top: 32px;
+}
+
+h3 + p {
+	margin-top: 16px;
+}
+article h3 + p, article h3 + blockquote {
+margin-top: 16px;}
+
+article img {
+	margin-top: 68px;
+}
+
+article img + h2 {
+	margin-top: 68px;
+}
+
+article p + ul {
+	margin-top: 40px;
+}
+
+article ul + h2 {
 	margin-top: 40px;
 }
