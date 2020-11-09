@@ -58,4 +58,7 @@ article h3 + img { margin-top: 81px;
 article ul {
    list-style-type: square;
 }
-a
+
+.index_item * {
+  width: 700px; margin: 0 auto;
+}
